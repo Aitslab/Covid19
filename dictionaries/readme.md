@@ -9,6 +9,7 @@ Please cite this article if you use dictionaries.
   journal={arXiv preprint arXiv:2003.09865 [q-bio.OT]},
   year={2020}
 }
+```
 
 and Please cite this Easyner paper if you use pipeline for dictionary-based NER.
 
@@ -21,7 +22,7 @@ and Please cite this Easyner paper if you use pipeline for dictionary-based NER.
   archivePrefix={arXiv},
   primaryClass={q-bio.QM}
 }
-
+```
 
 The dictionaries contain the following terms:
 1. SARS-CoV-2 synonyms (sars-cov-2_synonyms.txt)  (virus terms)
