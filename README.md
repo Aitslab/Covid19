@@ -2,6 +2,7 @@
 a repository with an NLP toolbox and other resources for SARS-CoV-2/COVID-19 research.
 
 
+```bibtex
 @book{author2024,
   author = {Author Name},
   title = {Book Title},
