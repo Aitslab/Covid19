@@ -49,3 +49,14 @@ After installation activate the environment:
 ```console
 conda activate easyner_env
 ```
+
+
+## Dictionaries
+We have updated dictionaries through [updated_code](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file8_v3.ipynb).
+
+
+
+## Cord-19
+To be able to run [EasyNER](https://github.com/Aitslab/EasyNER.git) dictionary-based tagger on Cord-19, we have first downloaded last version of cord-19 corpus released 2022-06-02 - [Final release of CORD-19](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html)
+
+The .tar.gz file with the size of 18.7 GB, were extracted and metadata.csv file were used by [EasyNER](https://github.com/Aitslab/EasyNER.git) pipeline with the following setting.
