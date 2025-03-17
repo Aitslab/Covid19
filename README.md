@@ -32,6 +32,15 @@ The dictionaries contain the following terms:
 
 For this version of manuscript (v3), we have updated (sars-cov-2_synonyms.txt) and saved as supplemental_file1_v3.txt, 
 covid-19_synonym.txt and have it as supplemental_file2_v3.txt and variants.txt as supplemental_file3_v3.txt.
+<<<<<<< HEAD
+=======
+
+
+
+
+# corona
+a repository with an NLP toolbox (in manuscript folder) and other resources for SARS-CoV-2/COVID-19 research.
+>>>>>>> 178ef88c3ba2e1a384e0b929d2a81039b6a2c1ce
 
 
 
