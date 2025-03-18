@@ -63,6 +63,9 @@ The .tar.gz file with the size of 18.7 GB, were extracted and metadata.csv file 
 
 ```python
 
+ "CPU_LIMIT": 4,
+ "TIMEKEEP":true,
+
  "ignore": {
     "cord_loader": false,
     "downloader": true,
@@ -100,7 +103,7 @@ The .tar.gz file with the size of 18.7 GB, were extracted and metadata.csv file 
     "model_type": "spacy_phrasematcher",
     "model_folder": "",
     "model_name": "en_core_web_sm",
-    "vocab_path": "dictionaries/dictionaries/covid-19_synonyms_v3.txt",   # we have run it for all dictionaries
+    "vocab_path": "dictionaries/covid-19_synonyms_v3.txt",   # we have run it for all dictionaries
     "store_tokens":"no",
     "labels": "",
     "clear_old_results": true,
