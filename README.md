@@ -1,6 +1,5 @@
-This folder contains COVID-19-related dictionaries Collected from various sources and enhanced with added prefixes and suffixes. That can be used with the [EasyNER](https://github.com/Aitslab/EasyNER.git) pipeline.
-Please cite this article if you use dictionaries.
-
+This folder contains COVID-19-related dictionaries collected from various sources and enhanced with added prefixes and suffixes. That can be used with the [EasyNER](https://github.com/Aitslab/EasyNER.git) pipeline.
+Please cite the following article if you use dictionaries.
 
 ```bibtex
 @article{rashed2020english,
@@ -11,7 +10,7 @@ Please cite this article if you use dictionaries.
 }
 ```
 
-and Please cite this Easyner paper if you use pipeline for dictionary-based NER.
+and Please cite the following article if you use pipeline for dictionary-based NER.
 
 ```bibtex
 @article{ahmed2023easyner,
@@ -31,7 +30,7 @@ The dictionaries contain the following terms:
 
 
 For this version of manuscript (v3), we have updated (sars-cov-2_synonyms.txt) and saved as supplemental_file1_v3.txt, 
-covid-19_synonym.txt and have it as supplemental_file2_v3.txt and variants.txt as supplemental_file3_v3.txt.
+covid-19_synonym.txt and have it as supplemental_file2_v3.txt and variants.txt as supplemental_file3.txt.
 
 
 Previous versions of this manuscript, files and all references are summarized in:
