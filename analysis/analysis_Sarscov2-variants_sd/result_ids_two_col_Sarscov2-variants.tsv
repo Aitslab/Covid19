@@ -1,0 +1,837 @@
+	entities	total_count
+0	variant	21865
+1	omicron	9929
+2	delta	11415
+3	alpha	9830
+4	beta	8635
+5	lineage	5152
+6	b.1.1.7	3794
+7	gamma	5036
+10	delta variant	3402
+12	omicron variant	2568
+13	b.1.351	2183
+14	b.1.617.2	1562
+16	p.1	1424
+18	ba.1	1079
+19	ba.2	971
+21	b.1.1.529	806
+22	a variant	775
+23	alpha variant	740
+24	b.1	435
+26	b.1.1.7 variant	433
+27	lambda	676
+28	theta	430
+30	24h	317
+31	zeta	421
+33	b.1.617	277
+34	xdr	271
+36	beta variant	324
+37	b.1.1.7 lineage	222
+38	p.2	202
+39	g variant	201
+40	b.1.351 variant	192
+41	b.1.429	187
+42	b.1.526	186
+43	b.1.617.1	181
+44	lineage b.1.1.7	186
+45	epsilon	270
+46	b.1.1.28	155
+48	b.1.427	140
+49	b.1.1	140
+50	uk variant	138
+51	20a	142
+52	20b	129
+53	variant b.1.1.7	126
+54	gra	124
+55	lineage b	121
+57	gamma variant	140
+58	p.1 variant	110
+59	ba.1.1	105
+60	xbj	104
+62	iota	199
+64	b.1.1.33	94
+65	19a	98
+66	eta	234
+67	ba.3	92
+68	variant as	86
+69	r.1	84
+70	20 g	81
+72	a lineage	87
+73	ba.4	77
+75	20c	80
+76	ay.1	76
+77	lineage a	84
+78	ba.5	73
+79	ay.4.2	71
+80	b.1.617.2 variant	70
+81	b.1.525	68
+83	ba.2.12.1	63
+84	b.6	62
+85	b.1.621	60
+86	b.1.177	60
+87	p.1 lineage	59
+88	lambda variant	68
+89	19b	59
+90	c.1.2	58
+92	variant by	57
+93	c.37	56
+94	b.1.36	56
+95	b.1.1.519	55
+96	south african variant	55
+97	20g	57
+98	ba.1 variant	52
+100	variant at	50
+101	b.1 lineage	48
+102	al.1	48
+103	b.1.1.248	48
+104	mu variant	47
+105	a.27	46
+106	by variant	46
+107	b.1.160	44
+109	lineage c	50
+110	g clade	42
+111	lineage p.1	47
+112	b.1.258	39
+113	brazilian variant	39
+114	b.1.618	38
+115	clade g	62
+116	20e	41
+117	b.1.617.3	37
+118	gr clade	37
+119	a.23.1	36
+120	ay.4	34
+121	b.1.351 lineage	35
+122	b.1 variant	34
+123	as variant	46
+124	b.1.617 lineage	32
+125	b.1.620	30
+126	variant b.1.351	31
+127	b lineage	30
+128	b.1.2	30
+129	lineage b.1.617.2	31
+131	gh clade	29
+132	lineage b.1.351	30
+133	r.1 lineage	28
+134	clade 20a	29
+135	k variant	27
+136	ba.2 variant	27
+138	lineage by	27
+139	p.3	28
+140	b.1.617.2 lineage	27
+141	b.1.617 variant	26
+142	variant b.1.617.2	26
+143	british variant	26
+144	by lineage	27
+145	ay.3	25
+146	variant b.1.1.529	25
+148	gry	24
+149	b.4	24
+150	xec	24
+151	clade gr	25
+153	as lineage	24
+154	lineage b.1	25
+155	clade gh	28
+156	ay.2	22
+158	b.1.111	22
+159	20i	23
+160	xfd	21
+161	b.1.1.529 variant	21
+162	lineage as	21
+163	b.1.1.1	21
+165	variant p.1	21
+166	ay.29	20
+167	b.1.617.1 variant	20
+168	n.9	21
+169	b.1.1.214	20
+170	xcm	30
+171	b.1.1.298	19
+172	b.1.1.318	19
+173	variant s	22
+174	lineage b.6	22
+175	b.1.5	18
+176	lineage b.1.1.529	18
+177	xbd	18
+178	south africa variant	17
+179	lineage p.2	17
+180	clade 20c	22
+181	clade l	16
+182	21 g	16
+183	p.1.2	15
+184	lineage b.1.1.28	15
+185	b.1.1 lineage	15
+187	21l	15
+188	brazil variant	15
+189	b.1.616	15
+190	variant b	15
+191	c.1	17
+192	variant ba.1	14
+193	fc variant	14
+194	b.6 lineage	14
+195	xaa	15
+196	a.27 lineage	14
+197	xbw	14
+198	v.2	24
+199	20h	20
+200	b.1.470	13
+201	s variant	13
+202	clade 20b	17
+203	lineage b.1.1	16
+204	clade 20g	13
+205	ba.2 lineage	13
+206	b.1.1.25	13
+207	clade v	16
+208	lineage b.1.1.33	13
+209	p.2 variant	13
+210	b.1.529	12
+211	ay.1 variant	12
+212	21a	16
+213	p.1.7	12
+214	a.1	12
+215	23a	16
+216	b.1.1.397	12
+217	r.1 variant	12
+219	b.1.1.317	12
+220	25a	12
+221	indian variant	12
+222	xen	16
+224	b.1.1.28 lineage	11
+225	variant ba.2	11
+226	usa/wa1/2020	11
+227	s clade	11
+228	lineage ba.2	11
+229	xad	11
+230	b.1.1.284	11
+231	epsilon variant	21
+232	b.1.91	11
+233	20j	11
+234	variant a	14
+235	21j	11
+237	xff	10
+238	b.1.526 variant	10
+239	b.1.1.29	10
+241	b.1.466.2	10
+242	b.1.160 variant	10
+243	b.1.575 lineage	10
+244	b.1.575	10
+245	variant b.1.1.519	10
+247	b.1.429 variant	10
+248	wuhan/wiv04/2019	10
+249	xca	10
+250	b.1.1.529 lineage	10
+252	xbs	10
+253	23f	9
+254	c.1.2 variant	9
+255	xdy	9
+256	b.1.575.2	9
+257	b.1.411	9
+258	xap	12
+259	19b clade	9
+260	b.1.195	9
+261	australia/vic01/2020	9
+262	b.1.524	9
+264	wuhan/hu-1/2019	9
+265	a.2.5	9
+266	20d	16
+267	ay.43	9
+268	lineage b.1.177	9
+270	21g	9
+271	clade s	12
+272	le variant	11
+273	20b clade	9
+274	ba.2.11	8
+275	p.1.8	8
+276	xcd	8
+277	p.6	8
+278	z variant	8
+279	21d	9
+280	lineage g	9
+281	ay.28	8
+282	b.1.36.27	8
+283	b.1.1.413	8
+284	b.1.1.523	8
+285	p.1.6	8
+286	ba.2.3	8
+287	ba.2.2	8
+288	b.1.621 variant	8
+289	p.2 lineage	8
+290	xdp	8
+291	at.1	8
+293	p.1.1	8
+294	xbf	8
+296	b.1.177.75	8
+297	ba.2.13	8
+298	b.1.346	8
+299	b.1.640.2	8
+300	xdh	8
+302	b.1.113	8
+303	lineage d	7
+309	20a clade	7
+310	lineage b.1.1.25	7
+311	21i	7
+312	xfc	7
+313	24 g	7
+314	c variant	7
+315	variant b.1.617	7
+316	l lineage	7
+318	ay.99.2	7
+319	b.1.221	7
+320	b.1.640.1	7
+321	lineage ba.1	7
+322	lineage b.1.617	9
+323	24d	7
+324	b.3	7
+325	n.10	8
+326	b.1.346 lineage	7
+327	lineage at	7
+328	a.30	7
+329	b variant	8
+330	du variant	7
+331	b.1.135	7
+332	b.1.117	6
+333	l variant	6
+334	ay.127	6
+335	b.1.1.33 lineage	6
+336	21k	6
+337	ay.104	6
+339	b.1.1.54	6
+340	b.1.8	6
+341	xas	8
+342	lineage b.1.526	7
+343	b.1.1.56	6
+344	b.1.420	6
+345	k lineage	6
+346	b.1.618 variant	6
+348	ay.122	6
+349	a.2	6
+350	b.1.36 lineage	6
+351	v.1	9
+352	lineage b.1.36	8
+354	20f	8
+355	b.1.1.248 lineage	6
+356	b.1.311	6
+357	22c	6
+358	lineage b.1.195	6
+359	b.4 lineage	6
+360	india variant	6
+361	b.1.526 lineage	6
+362	ba.1 lineage	6
+363	eta variant	7
+364	lineage b.1.1.519	6
+365	ay.43.2	6
+366	ay.43.1	6
+367	b.1.429 lineage	6
+368	lineage b.1.258	5
+369	p.4	5
+370	21h	6
+371	19a clade	5
+373	ay.33	5
+374	xch	5
+375	b.1.620 variant	5
+376	24c	6
+377	b.1.630	5
+378	22f	6
+379	b.1.621 lineage	5
+380	c.36	5
+383	b.1.617.3 lineage	5
+384	clade 19b	5
+385	b.1.1.222	5
+386	b.1.3	5
+387	iota variant	5
+388	variant p.2	5
+389	b.1.128	5
+390	20c clade	5
+391	23 g	6
+392	b.1.595	5
+393	b.1.243	5
+394	b.1.640	5
+395	c lineage	5
+397	ay.4 lineage	5
+398	lineage a.23.1	6
+399	lineage p.6	4
+400	wuhan/wh04/2020	4
+401	p.1.3	4
+402	p.1.4	4
+403	xcn	4
+404	lineage c.37	4
+405	b.1.631	4
+406	24a	5
+407	b.1.351.1	4
+408	b.1.160 lineage	4
+410	kent variant	4
+411	b.1.1.220	4
+412	ay.120	4
+413	b.1.177 variant	4
+414	b.1.1.420	4
+415	xct	5
+416	b.1.80	4
+417	a.6	4
+418	b.1.596	4
+419	b.1.582	4
+420	lineage c.1.2	4
+421	ay.23	4
+422	a.23	4
+423	p.5	4
+424	b.1.214.2	4
+425	variant b.1.427	4
+426	lineage a.27	5
+427	xdb	4
+429	b.1.214.1	4
+430	g lineage	4
+431	b.1.1.345	4
+432	et variant	4
+433	variant b.1	4
+435	a.2.2	4
+436	n.5	4
+437	b.1.243.1	4
+438	p.7	4
+439	clade 19a	4
+440	xcv	4
+441	b.1.1.214 lineage	4
+442	b.1.35	4
+443	fr.2	4
+444	ga variant	4
+445	b.1.411 lineage	4
+446	b.1.1.63	4
+447	b.1.1.8	4
+448	variant ay.127	4
+450	variant u	3
+451	m variant	4
+453	b.1.5 lineage	3
+454	s lineage	3
+455	n.2	3
+456	b.1.1.318 lineage	3
+457	variant b.1.618	3
+458	turkey/eragem-001/2020	3
+459	b.1.291	3
+460	b.1.36.29	3
+461	b.1.106	3
+462	xbp	3
+463	ay.99	3
+464	ay.38	3
+465	b.1.497	3
+466	ae.1	3
+467	b.1.112	3
+469	lineage b.1.525	3
+470	b.1.141	3
+471	b.1.13 lineage	3
+472	b.1.13	3
+473	ay.25	3
+474	lineage b.1.524	3
+476	b.1.1.241 lineage	3
+477	b.1.1.241	3
+478	lineage n.9	3
+479	b.1.234	3
+480	lineage b.1.1.298	3
+481	b.1.1.119	3
+483	ay.39	3
+484	23b	6
+485	ay.122 lineage	3
+486	b.1.1.28 variant	3
+487	mk lineage	3
+488	b.1.1.519 variant	3
+489	b.1.177 lineage	3
+491	lineage ba.2.12.1	3
+492	lineage b.1.575.2	3
+493	d.3	3
+494	23g	3
+495	b.1.1.316	3
+496	at variant	3
+497	d variant	4
+498	b.1.367	3
+499	b.1.474	3
+500	variant b.1.526	3
+501	b.1.640 lineage	3
+503	clade gry	5
+504	b.1.1.524	3
+505	b.1.1.525	3
+506	24e	3
+508	a.30 variant	3
+512	b.1.1.170	3
+513	c.2	5
+515	lineage ay.4.2	3
+516	b.1.36.27 lineage	3
+517	shanghai/sh0007/2020	3
+519	lineage b.1.1.1	3
+521	b.1.362	3
+522	b.1.362 lineage	3
+523	b.1.36.10	3
+524	xbt	3
+525	b.1.1.141	3
+527	n.9 lineage	3
+528	be variant	3
+529	b.1.258 lineage	3
+530	ae.4	3
+531	lineage b.1.1.389	3
+532	gv clade	3
+533	gr.1	3
+534	b.1.36.16	3
+535	22a	5
+536	b.1.427 variant	3
+537	b.1.311 lineage	3
+538	21b	5
+539	21c	3
+540	lineage b.1.1.29	3
+541	gv.1	3
+543	b.1.375	3
+544	b.1.416	3
+545	b.1.36.31	3
+546	v variant	3
+547	b.1.617.3 variant	3
+548	b.1.1.389	3
+549	b.1.1.374	2
+550	b.1.1.371	2
+551	n.7	3
+552	variant du	2
+553	ay.45	2
+554	b.1.1.74	2
+556	xem	2
+557	lineage b.1.221	2
+558	lineage b.1.466.2	2
+559	b.1.369	2
+560	b.1.1.117 lineage	2
+561	b.1.1.117	2
+562	b.1.1.388	2
+563	variant b.1.1.222	2
+564	av.1	2
+565	n.7 lineage	2
+566	b.1.1.312	2
+567	aa variant	2
+569	b.1.351.3	2
+570	a.23.1 variant	2
+571	a.23.1 lineage	2
+572	b.1.1.212	2
+573	b.1.620 lineage	2
+574	24g	2
+575	b.1.525 lineage	2
+577	b.1.1.429	2
+578	de variant	2
+579	l clade	2
+580	lineage b.1.429	2
+581	b.1.1.163	2
+582	b.1.459	2
+583	v clade	2
+584	lineage xb	2
+585	b.1.634	2
+586	lineage ay.3	2
+587	b.1.616 variant	2
+588	b.1.1.318 variant	2
+589	b.1.494	2
+591	p variant	2
+592	b.1.1.207	2
+593	variant b.1.429	2
+594	lineage b.1.232	2
+595	c.16	2
+596	ay.30	2
+597	b.1.214	2
+598	b.1.1.70	2
+599	b.1.232	2
+600	b.1.566	2
+601	b.1.1.162	2
+602	b.4.1	2
+603	xdn	2
+604	b.1.243.1 variant	2
+605	b.1.9	2
+606	b.1.1.298 lineage	2
+607	b.1.1.10	2
+608	variant n	2
+609	b.1.619	2
+610	lineage ay.4	2
+611	23h	2
+612	be lineage	2
+613	variant g	2
+614	shenzhen/ivdc-0610-01/2021	2
+616	b.39	2
+617	ae.1 lineage	2
+618	b.1.1.161	2
+619	ba.2.9.1	2
+620	b.40	2
+621	gra clade	2
+623	lineage b.1.8	2
+624	b.1.1.39	2
+625	b.1.1.39 lineage	2
+626	b.1.549	2
+627	n.10 variant	2
+629	gh/490r	2
+630	xes	2
+631	b.1.1.523 variant	2
+632	b.1.1.269	2
+633	n.8	2
+634	ay.43 lineage	2
+635	ne lineage	2
+637	lineage r.1	3
+639	ay.25.1	2
+640	xds	2
+641	b.1.1.248 variant	2
+644	a.4	2
+645	lineage p	2
+646	21m	2
+647	q.4	2
+648	b.1.91 lineage	2
+649	variant m	2
+651	gg variant	2
+652	p.3 variant	2
+654	lineage a.2.2	2
+655	b.1.177.75 lineage	2
+656	b.1.530	2
+657	b.1.1.259	2
+658	24f	3
+659	b.1.1.345 variant	2
+660	ba.2.12.2	2
+661	b.1.1.31	2
+662	clade 20h	2
+663	ay.126	2
+664	b.1.1.348	2
+665	bangladesh/bcsir-nilmrc-006/2020	2
+666	c.17	2
+667	b.1.428.2	2
+668	b.1.540	2
+669	b.1.1.189	2
+670	lineage b.3	4
+672	b.58	2
+673	lineage a.6	2
+675	xav	2
+676	au variant	2
+677	23d	2
+678	b.1.1.351	2
+680	finland/1/2020	2
+681	b.1.298	2
+682	ay.13	2
+683	lp variant	2
+684	ba.1.15	2
+685	b.1.525 variant	2
+686	lineage a.2	2
+689	variant pa	2
+692	variant a.27	4
+694	b.1.633	2
+695	ay.31	1
+696	lineage b.1.319	1
+697	lineage b.1.621	2
+698	b.1.1.526	1
+700	b.1.1.33 variant	1
+702	lineage b.1.6	1
+703	b.1.1.298 variant	1
+704	b.1.6	1
+705	c.8	1
+706	c.36.3	1
+707	b.1.247	1
+708	b.1.1.250	1
+710	fh variant	1
+711	b.1.319	1
+714	b.1.425	1
+715	c.1.1	1
+716	a.2.5 lineage	1
+717	lineage a.2.5	1
+718	y lineage	1
+719	lineage p.7	1
+721	b.1.1.71	1
+722	b.1.1.266	1
+723	b.1.1.148	1
+724	b.1.480	1
+726	variant b.1.243.1	1
+727	b.1.1.332	1
+728	lineage b.1.243	1
+729	b.1.177.7	1
+730	p.1.1 variant	1
+731	belgium/ghb-03021/2020	1
+732	21k clade	1
+733	b.1.258.17	1
+734	b.1.617.1 lineage	1
+735	b.1.167	1
+736	22e	2
+737	hb variant	1
+738	b.1.111 lineage	1
+739	clade gk	1
+740	clade 21k	1
+741	a.5	1
+742	lineage b.1.1.74	1
+745	n.3	1
+746	variant b.1.36	1
+748	lineage b.1.340	1
+749	b.1.1.94	1
+750	b.1.369 lineage	1
+751	b.1.585	1
+752	lineage be	1
+753	cp variant	1
+755	au.2	1
+756	theta variant	2
+758	wuhan/wh01/2019	1
+759	ay.6	1
+760	lineage ay.6	1
+761	pc lineage	1
+762	b.1.1.63 lineage	1
+763	b.1.428.1 lineage	1
+764	b.1.428.1	1
+765	variant an	1
+766	ay.4 variant	1
+769	b.1.468	1
+770	b.1.499	1
+771	clade 20e	1
+773	g/478k.v1	1
+774	gr/501y.v3	1
+775	b.1.351.2	1
+776	gh/501y.v2	1
+777	b.1.499 lineage	1
+778	ge variant	1
+779	lineage b.1.588	1
+780	lineage ba.1.1	1
+781	b.1.1.25 lineage	1
+783	lineage b.1.620	1
+785	b.1.1.267	1
+786	b.1.588	1
+787	b.1.212	1
+789	b.1.340	1
+790	ea lineage	1
+791	zeta variant	2
+792	b.1.544	1
+793	lineage b.1.619	1
+794	b.1.1.17	1
+795	ay.98	1
+796	ay.4.3	1
+797	n.1 lineage	1
+798	n.1	2
+799	ay.79	1
+800	ay.42	1
+801	ay.24	1
+802	variant mm	1
+803	b.1.1.373	1
+804	b.1.1.152	1
+805	b.1.638	1
+806	b.1.1.220 variant	1
+807	b.1.221 lineage	1
+809	b.1.1.407	1
+811	lineage b.1.2	1
+812	malaysia/iium316/2020	1
+813	ed.1	1
+814	g.1	1
+815	ay.23 lineage	1
+816	ay.27	1
+817	b.1.1.251 lineage	1
+818	b.1.1.251	1
+819	xc lineage	1
+820	d lineage	1
+822	b.1.558	1
+823	b.1.471	1
+824	b.1.153	1
+825	b.1.1.434	1
+826	b.1.523	1
+827	b.1.1.129	1
+829	xa lineage	1
+830	variant b.1.617.1	1
+831	c.4	2
+832	lineage b.1.1.72	1
+833	b.1.1.72	1
+835	b.1.1.159	1
+836	c.3	2
+839	b.1.177.86	1
+840	az.5	1
+841	lineage b.1.177.86	1
+842	variant br	1
+843	bd lineage	1
+844	taiwan/ntu01/2020	1
+845	b.1.1.208	1
+846	xj lineage	1
+848	india/gj-ncdc-niv-insacog-24095/2021	1
+849	england/milk-155f811/2021	1
+850	bp variant	1
+851	lineage b.1.177.51	1
+852	variant ck	1
+853	b.1.1.25 variant	1
+854	taiwan/4/2020	1
+855	ba.1.17	1
+856	cd.1	1
+858	lineage a.23	1
+860	p.4 lineage	1
+861	b.1.248	1
+862	b.1.1.212 lineage	1
+863	b.1.222	1
+864	variant b.1.222	1
+865	mc lineage	1
+866	b.1.177.51	1
+867	b.1.1.305	1
+868	b.1.1.218	1
+869	b.31	1
+870	b.1.1.119 lineage	1
+871	b.1.621.1	1
+872	lineage b.1.36.16	1
+873	21f	1
+874	kr.1	1
+875	b.41	1
+876	k.1	1
+877	20d clade	1
+878	variant ay.13	1
+880	ay.13 lineage	1
+881	variant p	1
+882	ga.3	1
+883	ay.26 lineage	1
+884	ay.26	1
+885	b.1.1 variant	1
+886	finland/fin-25/2020	1
+887	ba.3 lineage	1
+888	b.55	1
+890	clade 21c	1
+891	lineage b.1.427	1
+894	b.1.497 lineage	1
+895	b.1.1.36	1
+899	cn variant	1
+901	ft.4	1
+902	b.1.640 variant	1
+905	b.1.351.3 variant	1
+907	lineage b.1.470	1
+908	lineage b.1.634	1
+909	clade 21a	1
+910	b.1.1.523 lineage	1
+911	lineage b.1.1.523	2
+917	ca.4	1
+918	b.1.627	1
+919	d.2	1
+920	lineage d.2	1
+921	lineage s	1
+923	b.1.533 lineage	1
+924	b.1.533	1
+925	b.1.128 lineage	1
+926	ay.44	1
+927	20g clade	1
+928	lineage ay.44	1
+929	b.1.623	1
+930	ca.7	1
+931	b.6.6	1
+932	c.30	1
+933	b.1.36.1	1
+934	b.1.218	1
+935	b.1.260	1
+936	lineage b.1.1.70	1
+937	b.1.1.1 variant	1
+939	ay.85	1
+940	variant af	1
+941	lineage ba.4	1
+942	ay.103	1
+944	q.3	1
+945	q.2	1
+946	q.1	1
+947	b.35	1
+948	b.1.1.6	1
+949	b.1.625 lineage	1
+950	b.1.625	1
+951	ay.101	1
+952	ga.2	1
+953	b.1.1.1 lineage	1
+955	nc variant	1
+956	b.1.177.21	1
+958	b.1.141 variant	1
+960	b.1.1.44	1
+961	lineage b.1.1.44	1
+962	mu lineage	1
+964	variant hb	1
+966	b.1.139	1
+967	n.4	1
+968	variant n.9	1
+972	b.1.1.254	1
+973	b.1.214.1 lineage	1
+974	at.1 variant	1
+975	b.1.470 variant	1
+976	b.1.466.2 variant	1
+977	ng variant	1
+978	variant aa	1
+979	lineage b.1.617.1	1
+980	b.1.214.1 variant	1
+981	21e	1

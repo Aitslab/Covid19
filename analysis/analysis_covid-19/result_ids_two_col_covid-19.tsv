@@ -1,0 +1,362 @@
+	entities	total_count
+0	coronavirus disease	93671
+1	coronavirus disease 2019	73751
+2	novel coronavirus	25848
+5	covid19	10636
+6	covid 19	9950
+9	new coronavirus	5942
+10	novel coronavirus disease	6024
+11	coronavirus infection	5230
+13	coronavirus pneumonia	1841
+14	cov infection	1695
+15	long covid	2585
+17	coronavirus infections	1342
+18	cov2 infection	1499
+19	pims	1286
+21	novel coronavirus pneumonia	1307
+22	coronavirus disease 19	1818
+23	ncp	1096
+24	multisystem inflammatory syndrome in children	1613
+26	new coronavirus infection	920
+27	pasc	868
+28	corona virus disease 2019	1854
+30	coronavirus 2 infection	817
+31	novel corona	1138
+32	acute respiratory syndrome coronavirus 2 infection	773
+33	2019 coronavirus disease	855
+35	severe acute respiratory syndrome coronavirus 2 infection	765
+37	2019 novel coronavirus disease	662
+38	novel coronavirus infection	688
+39	new coronavirus disease	709
+40	ncov infection	467
+41	disease caused by severe acute respiratory syndrome coronavirus 2	495
+44	cov infections	404
+46	coronavirus diseases	492
+51	sars2	290
+53	coronavirus infectious disease	354
+55	new coronavirus pneumonia	273
+58	post covid	390
+60	infectious disease caused by severe acute respiratory syndrome coronavirus 2	245
+61	coronavirus severe acute respiratory syndrome	224
+63	coronavirus 2019 disease	226
+69	new corona	180
+70	coronavirus diseases 2019	186
+71	ncov pneumonia	136
+73	novel corona virus disease	191
+74	cov disease	127
+75	novel coronavirus severe acute respiratory syndrome	142
+76	pediatric inflammatory multisystem syndrome	177
+79	u07.1	104
+83	infection caused by severe acute respiratory syndrome coronavirus 2	115
+87	covid ards	86
+88	cov 2 infection	117
+90	sars cov2 infection	96
+91	paediatric inflammatory multisystem syndrome	128
+92	2019 novel coronavirus pneumonia	73
+93	2019 sars	67
+98	covid illness	78
+99	illness caused by severe acute respiratory syndrome coronavirus 2	68
+100	chinese virus	76
+101	corona disease	118
+103	pneumonia caused by severe acute respiratory syndrome coronavirus 2	72
+105	disease caused by coronavirus	72
+106	covid19 related	61
+110	corona infection	60
+113	corona virus disease 19	109
+115	syndrome due to coronavirus	49
+116	severe acute respiratory syndrome coronavirus 2 infections	53
+119	2019 novel coronavirus infection	46
+121	coronavirus (cov) disease 2019	51
+122	cov2 pneumonia	65
+123	pmis	71
+126	coronavirus infection 2019	44
+131	sarscov2 infection	46
+132	syndrome caused by coronavirus	45
+133	cov2 disease	39
+141	cov diseases	30
+143	coronavirus disease infection	31
+144	coronavirus 19 disease	35
+145	sars cov 2 infection	37
+149	coronavirus syndrome	39
+151	coronavirus illness	41
+153	acute respiratory syndrome coronavirus 2 pneumonia	27
+154	coronavirus 2 pneumonia	27
+155	coronavirus 2019 infection	37
+157	coronavirus 2 disease	31
+158	post covid19	43
+160	wuhan pneumonia	26
+162	severe acute respiratory syndrome coronavirus 2 pneumonia	27
+164	pneumonia caused by novel coronavirus	26
+166	post covid 19	45
+168	coronaviruses infection	23
+170	pediatric multisystem inflammatory syndrome	35
+171	china virus	27
+172	pneumonia caused by coronavirus	34
+173	novel corona virus infection	38
+174	disease caused by novel coronavirus	26
+177	paediatric multisystem inflammatory syndrome	44
+179	acute respiratory syndrome caused by coronavirus 2	30
+180	covs infection	19
+182	acute respiratory syndrome coronavirus 2 disease	20
+184	cov pneumonia	18
+185	infections caused by severe acute respiratory syndrome coronavirus 2	18
+186	2019 corona virus disease	28
+188	sars 2	18
+189	new coronavirus severe acute respiratory syndrome	20
+192	covid 19 illness	21
+194	severe acute respiratory syndrome coronavirus 2 disease	20
+195	coronavirus respiratory disease	17
+198	pneumonia due to coronavirus	14
+202	2019 coronavirus infection	18
+204	ncov disease	15
+208	novel coronavirus 2019 disease	16
+209	coronavirus pneumonia 2019	13
+212	new corona virus disease	20
+213	novel coronavirus 2019 infection	14
+214	illness from coronavirus	14
+217	2019, novel coronavirus disease	17
+220	coronaviruses disease	19
+221	seafood market pneumonia	11
+223	illness caused by coronavirus	11
+224	coronavirus syndromes	10
+229	2019 new coronavirus disease	11
+232	pneumonia caused by coronaviruses	10
+233	disease due to coronavirus	10
+234	infection caused by novel coronavirus	15
+235	coronaviruses severe acute respiratory syndrome	13
+237	infection due to coronavirus	14
+241	coronavirus infectious diseases	14
+243	ncov acute respiratory disease	9
+244	illness due to coronavirus	10
+246	infection from severe acute respiratory syndrome coronavirus 2	11
+252	pneumonia caused by 2019 novel coronavirus	12
+255	coronavirus 2 syndrome	8
+256	chinese coronavirus	8
+258	2019 novel corona virus disease	8
+259	coronavirus infection pneumonia	14
+265	acute respiratory syndrome (sars) due to coronavirus (cov) 2	7
+266	coronavirus disease pneumonia	8
+267	illness from severe acute respiratory syndrome coronavirus 2	7
+269	syndrome from coronavirus	8
+271	corona disease 2019	11
+273	multisystem inflammatory disease in children	10
+275	corona infections	12
+283	novel coronavirus infection pneumonia	12
+287	disease due to coronavirus 2019	6
+288	pneumonia caused by new coronavirus	8
+289	novel coronavirus illness	8
+292	infection caused by coronavirus	7
+295	pneumonia due to severe acute respiratory syndrome coronavirus 2	6
+299	novel coronavirus diseases 2019	10
+307	2019 novel corona virus infection	7
+308	coronavirus acute respiratory infection	5
+309	infection due to severe acute respiratory syndrome coronavirus 2	7
+313	covid related illness	6
+316	infectious disease caused by novel coronavirus	6
+318	2019 cov disease	5
+320	sars cov2 pneumonia	8
+321	coronavirus disease19	9
+326	infection from coronavirus	6
+327	coronavirus pneumonias	7
+331	coronavirus 2019 illness	5
+333	mis c	4
+335	corona respiratory syndrome	4
+336	novel coronavirus respiratory disease	8
+337	novel corona virus pneumonia	8
+339	wuhan coronavirus infection	4
+344	coronavirus 2019 pneumonia	4
+346	pneumonia from severe acute respiratory syndrome coronavirus 2	4
+349	coronavirus respiratory syndrome	6
+351	novel coronavirus infection disease	7
+353	disease caused by severe acute respiratory syndrome corona virus 2	9
+356	2019 severe acute respiratory syndrome coronavirus 2 infection	4
+357	covs disease	4
+361	multisystem inflammatory disorder in children	6
+362	2019, novel coronavirus pneumonia	6
+363	new coronavirus 2019 disease	4
+366	coronavirus infections 2019	4
+367	disease caused by 2019 novel coronavirus	4
+369	cov 2 infections	4
+370	pims ts	4
+372	new corona virus infection	6
+373	coronavirus (covid 19) infection	5
+376	syndrome caused by novel coronavirus	6
+378	disease caused by corona	4
+379	infectious disease caused by coronavirus 19	3
+380	disease from coronavirus	6
+382	coronavirus (covid 19) disease	4
+384	corona illness	4
+387	infection caused by novel coronavirus 2019	3
+392	diseases caused by novel coronavirus	3
+399	new corona virus pneumonia	3
+400	cov 2 pneumonia	6
+401	novel coronavirus syndrome	3
+404	pneumonia caused by 2019 new coronavirus	3
+405	tlr7 deficiency	3
+407	sars coronavirus 2 disease	5
+408	coronavirus respiratory illness	3
+411	coronavirus respiratory infection	3
+413	pneumonia from coronavirus	3
+414	sars coronavirus 2 infection	3
+417	novel severe acute respiratory syndrome coronavirus 2 infection	6
+420	novel corona disease	5
+422	cov2 coronavirus disease	3
+426	disease caused by novel corona	6
+427	corona disease 19	3
+428	corona syndrome	3
+431	severe acute respiratory syndrome type 2	3
+436	cov 2 virus infection	3
+438	disease caused by novel corona virus	6
+439	disease due to severe acute respiratory syndrome coronavirus 2	3
+440	novel coronavirus 2019 illness	2
+443	19 coronavirus disease	2
+445	syndrome caused by novel coronavirus 2019	2
+446	novel coronavirus severe respiratory disease	2
+447	coronavirus severe respiratory disease	2
+449	disease caused by sars cov 2	3
+451	acute respiratory syndrome caused by novel coronavirus 2019	2
+452	infection caused by coronaviruses	2
+453	novel corona virus illness	2
+455	severe acute respiratory syndrome corona virus 2 pneumonia	2
+456	paediatric multisystem inflammatory disease	2
+459	disease from corona	2
+460	cov illness	2
+466	acute respiratory infection caused by novel coronavirus 2019	2
+467	pneumonia caused by novel severe acute respiratory syndrome coronavirus 2	2
+470	sars cov 2 pneumonia	4
+476	novel cov respiratory disease	2
+481	disorder caused by severe acute respiratory syndrome coronavirus 2	4
+483	disease caused by new coronavirus	2
+484	chinese corona	2
+485	covid related pneumonias	2
+489	wuhan infection	2
+490	coronavirus acute respiratory syndrome	4
+491	disease caused by coronavirus 2019	2
+500	cov2 severe pneumonia	2
+502	new coronavirus syndrome	2
+503	novel cov disease	2
+504	infectious pneumonia caused by 2019 novel coronavirus	2
+507	sarscov2 pneumonia	3
+508	novel corona infection	4
+509	2019 ncov infection	6
+510	coronavirus disease 19 infection	3
+513	illness caused by novel coronavirus	2
+515	coronavirus disease 19 pneumonia	3
+516	covid19 virus disease	2
+519	coronavirus 19 infection	3
+520	illness caused by novel severe acute respiratory syndrome coronavirus 2	2
+521	illness caused by 2019 novel coronavirus	2
+522	syndrome from novel coronavirus	2
+531	sequelae of covid 19	2
+534	ards caused by sars cov2	2
+535	novel coronavirus respiratory illness	2
+536	cov infectious diseases	2
+537	illness due to novel severe acute respiratory syndrome coronavirus 2	2
+538	new coronavirus respiratory disease	2
+539	infection from acute respiratory syndrome coronavirus 2	2
+541	severe acute respiratory syndrome corona virus 2 infection	6
+543	disease caused by severe acute respiratory syndrome coronavirus2	3
+545	corona diseases	5
+546	infection caused by corona	2
+547	infectious disease caused by 2019 novel coronavirus	2
+552	hcov 2 infection	2
+554	new coronavirus 2019 infection	2
+556	illness caused by coronavirus 2019	2
+558	syndrome caused by novel coronavirus 2	2
+560	2019 novel coronavirus severe acute respiratory syndrome	2
+561	infection caused by sars cov2	3
+563	multisystem inflammatory syndrome in children associated with coronavirus disease 2019	2
+567	cov2 respiratory infection	2
+569	disease caused by coronaviruses	2
+572	pneumonia caused by severe acute respiratory syndrome coronavirus 2 virus	2
+575	19 coronavirus infection	2
+580	disease caused by 2019 new coronavirus	4
+582	cov2 coronavirus infection	2
+586	paediatric inflammatory multisystem disorder	2
+588	novel coronavirus 2019 pneumonia	2
+589	2019 novel coronaviruses disease	2
+590	infection caused by 2019 novel coronavirus	2
+593	infection caused by severe acute respiratory syndrome corona virus 2	2
+598	corona pneumonia	2
+599	covid 19 related pneumonia	2
+600	corona virus infection 2019	2
+604	2019 new coronavirus pneumonia	3
+605	syndrome due to coronaviruses	2
+609	x linked	2
+612	cov2 illness	2
+614	infection from novel corona	2
+618	infection from novel corona virus	2
+620	disease caused by severe acute respiratory syndrome virus 2	2
+623	pneumonia caused by new corona	2
+624	pneumonia caused by new corona virus	2
+626	novel coronavirus 2 severe acute respiratory syndrome	2
+627	coronavirus pneumonia infection	2
+628	illness due to severe acute respiratory syndrome coronavirus 2	1
+629	covid 19 respiratory infection	2
+630	pneumonia caused by novel corona	1
+639	pneumonia caused by novel coronavirus 2019	1
+640	virus that causes coronavirus disease 2019 infection	1
+641	ncov severe illness	1
+642	coronaviruses respiratory illness	1
+645	cov 2 disease	1
+650	covid19 virus infection	2
+651	novel coronavirus 2 infection	1
+652	illness caused by novel corona	2
+653	syndrome due to novel coronavirus	2
+659	novel coronavirus respiratory syndrome	1
+660	disease caused by sars cov2	1
+661	disease caused by severe acute respiratory syndrome coronavirus 2 virus	2
+668	infectious disease caused by novel corona	2
+669	new coronavirus respiratory syndrome	1
+671	infectious pneumonia caused by severe acute respiratory syndrome coronavirus 2	1
+674	acute respiratory disease caused by sars cov 2	1
+675	respiratory disease caused by sars cov 2	1
+676	illness caused by novel corona virus	2
+677	wuhan novel coronavirus disease	1
+679	disorder caused by coronavirus	1
+681	human coronavirus 2019 disease	1
+683	coronavirus 2019 respiratory disease	1
+686	syndrome caused by coronaviruses	1
+690	wuhan respiratory syndrome	1
+694	long covid 19	2
+696	novel coronavirus infections 2019	1
+697	corona disease infection	1
+704	illness caused by acute respiratory syndrome coronavirus 2	1
+705	covid 19 virus infection	1
+707	infection caused by novel corona	1
+708	infection caused by novel corona virus	1
+710	disease caused by 2019 new corona	1
+715	illness due to novel coronavirus	1
+719	covid related diseases	1
+726	acute respiratory disease caused by 2019 novel coronavirus	1
+728	coronavirus severe respiratory syndrome	1
+729	novel coronavirus severe respiratory syndrome	1
+732	novel coronavirus 2 disease	1
+734	disease from coronavirus 2019	1
+735	new corona disease	1
+736	illness caused by severe acute respiratory syndrome corona virus 2	2
+738	disease caused by sarscov2	1
+742	syndrome due to coronavirus 2019	1
+745	2019 novel corona virus (2019 ncov) infection	1
+746	disease due to sars cov 2	1
+748	cov 2 syndrome	1
+751	coronavirus disorder	1
+752	pneumonia due to 2019 coronavirus	1
+753	acute respiratory syndrome coronavirus 2 illness	1
+754	severe acute respiratory syndrome coronavirus 2 illness	1
+755	acute respiratory syndrome coronavirus 2 severe infection	1
+756	covid 19 related ards	1
+760	wuhan coronavirus disease	1
+763	2019 novel coronavirus acute respiratory disease	1
+764	novel coronavirus acute respiratory disease	1
+765	coronavirus acute respiratory disease	1
+775	sarscov2 disease	1
+776	illness caused by covid 19 virus	1
+781	pneumonia due to 2019 novel coronavirus	1
+785	infection caused by ncov	1
+788	wuhan coronavirus pneumonia	1
+790	wuhan novel coronavirus infection	1
+791	coronavirus disease 2019 ards	1
+803	disease due to 2019 novel coronavirus	1
+804	disease due to corona	1
+808	disease caused by sars cov 2 virus	1
