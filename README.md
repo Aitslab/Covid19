@@ -212,11 +212,18 @@ if __name__ == "__main__":
     df_merged.to_csv(path_+"result_ids_two_col_{}.tsv".format(entity), sep="\t")
 
 
-
-
-
-
 ```
+
+
+
+## License
+
+- 🧠 **Dictionaries and data**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). See `LICENSE-DATA`.
+- 🛠️ **Code**: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). See `LICENSE`.
+
+Please credit the original CORD-19 dataset by the Allen Institute for AI, which is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+
 
 The scripts from [EasyNER](https://github.com/Aitslab/EasyNER/tree/main/scripts/) with some small changes used for this manuscript are saved in script directory of this repo.
 The supplementary files as well as previous versions of dictionaries are saved in [data](https://github.com/Aitslab/Covid19/tree/main/data) and [dictionaries](https://github.com/Aitslab/Covid19/tree/main/dictionaries) directories.
