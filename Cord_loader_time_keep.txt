@@ -1,7 +1,0 @@
-start_time at: 1740585476.10933
-Cord Loader time: 351.2137942314148
-Splitter time: 0.0
-NER time: 0.0
-Total time till NER: 351.2148232460022
-end_time at: 1740585827.3241532
-Total runtime: 351.2148232460022

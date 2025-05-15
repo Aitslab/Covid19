@@ -1,7 +1,0 @@
-start_time at: 1741146817.3193393
-Splitter time: 0.0
-NER time: 16964.230771303177
-Total time till NER: 16964.232207775116
-Analysis time: 59.26504158973694
-end_time at: 1741163840.8185856
-Total runtime: 17023.49924635887
