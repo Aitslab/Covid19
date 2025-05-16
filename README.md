@@ -32,6 +32,7 @@ The dictionaries contain the following terms:
 1. SARS-CoV-2 synonyms (sars-cov-2_synonyms.txt)  (virus terms)
 2. COVID-19 synonyms  (covid-19_synonym.txt)      (disease terms)
 3. SARS-CoV-2 variant terms (variants.txt)        (variant terms)
+4. SARS-CoV-2 common mutations
 
 
 For this version of manuscript (v3), we have updated (sars-cov-2_synonyms.txt) and saved as supplemental_file1_v3.txt, 
@@ -213,6 +214,16 @@ if __name__ == "__main__":
 
 
 ```
+
+## Lund-Annotated-CORD-19 silver standard.
+Due to licensing limitations we are not allowed to share the full Lund-Annotated-CORD-19 corpus openly. Instead you can follow these instructions to create it:
+
+1.	Download the CORD-19 metadata.csv file released on June 22 from its original source: https://github.com/allenai/cord19?tab=readme-ov-file#download 
+2.	Run the CORD loader and Sentence splitter module of EasyNER to extract the abstracts from the metadata.csv file and split the sentences. Instructions for installing and using the free EasyNER tool can be found here: https://github.com/Aitslab/EasyNER/blob/main/tutorials/Tutorial-pipeline.md.
+3.	Remove all terms of less than 3 characters from the variants dictionary.
+4.	Run the EasyNER NER module once with each dictionary (virus, disease, variants, mutations).
+5.	Run the EasyNER Merger module to merge the files from the individual runs
+
 
 
 
