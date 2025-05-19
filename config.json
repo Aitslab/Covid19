@@ -8,7 +8,7 @@
     "text_loader":true,
     "pubmed_bulk_loader":true,
     "splitter": true,
-    "ner": true,
+    "ner": false,
     "analysis": false,
     "merger": true,
     "metrics":true,
@@ -17,7 +17,7 @@
   },
   "downloader": {
     "input_path": "data/Lund-Autophagy-1.txt",
-    "output_path": "results/dataloader/text.json",
+    "output_path": "results/runtime/dataloader/Lund-Autophagy-1.json",
     "batch_size": 100 
   },
   "cord_loader": {
@@ -32,51 +32,53 @@
     "prefix": "freetext"
   },
   "pubmed_bulk_loader": {
-    "output_path": "data/pubmed/",
-    "baseline": "24",
+    "output_path": "C:/Users/sonja/OneDrive - Lund University/data_vault/external_data/pubmed/25/json2/",
+    "baseline": "25",
     "subset": true,
     "subset_range":[0,0],
     "get_nightly_update_files": true,
-    "update_file_range":[1500,1504],
+    "update_file_range":[1283,1309],
     "count_articles": true,
-    "raw_download_path": ""
+    "raw_download_path": "C:/Users/sonja/OneDrive - Lund University/data_vault/external_data/pubmed/25/raw2/"
   },
   "splitter": {
-    "input_path": "results/dataloader/text.json",
-    "output_folder": "results/splitter/",
-    "output_file_prefix": "sentences",
+    "input_path": "results/medmentions_original_preprocessed.json",
+    "output_folder": "results/nel/",
+    "output_file_prefix": "medmentions_original_preprocessed_sentences",
 	  "pubmed_bulk": false,
-	  "file_limit":[0,100],
-    "tokenizer": "spacy",
-    "model_name": "en_core_web_sm",
-    "batch_size": 1000
+	  "file_limit":[1283,1309],
+    "tokenizer": "nltk",
+    "model_name": "",
+    "batch_size": 10000000
   },
   "ner": {
-    "input_path": "results/splitter/",
-    "output_path": "results/ner/",
-    "output_file_prefix": "ner_spacy",
+    "input_path": "results/splitter_765/",
+    "output_path": "results/ner/sarscov2_variant/",
+    "output_file_prefix": "ner_spacy-",
     "model_type": "spacy_phrasematcher",
     "model_folder": "",
     "model_name": "en_core_web_sm",
-    "vocab_path": "dictionaries/variants_v2.txt",
+    "vocab_path": "dictionaries/low_no_hyphen/sarscov2_variant.txt",
     "store_tokens":"no",
     "labels": "",
     "clear_old_results": true,
     "article_limit": [-1,90000],
-    "entity_type": "variant",
-    "multiprocessing":true
+    "entity_type": "sarscov2_variant",
+    "multiprocessing": true,
+    "file_batch_size": 15,
+    "sentence_batch_size": 1000
   },
   "analysis": {
-    "input_path": "results/ner/",
+    "input_path": "results/ner/sarscov2_variant",
     "output_path": "results/analysis/",
-    "entity_type":"variant",
+    "entity_type":"sarscov2_variant",
     "plot_top_n":50
   },
   "merger": {
-    "paths": ["results/ner/model-1/", "results/ner/model-2/", "results/ner/model-3/"],
-    "entities": ["model-1_entity", "model-2_entity","model-3_entity"],
-    "output_path": "results/merged/path/to/merged-folder/",
-    "output_prefix": "merged"
+    "paths": ["results/ner/Covid19_765/", "results/ner/SarsCov2_765/","results/ner/Variant_765/","results/ner/Mutation_765/"],
+    "entities": ["Disease", "Virus","Variant","Mutation"],
+    "output_path": "results/merged/DVVM/",
+    "output_prefix": "merged-"
   },
   "metrics": {
     "predictions_file":"path/to/predictions/file.txt",
@@ -86,12 +88,13 @@
     "true_sep":" " 
   },
   "nel":{
-    "input_path": "results/text-ner-Lund-Autophagy-1_species/",
-    "output_path": "results/text-nel_Lund_Autophagy-1_species.json"
+    "input_path": "results/ner/nltk/biobert_v4/",
+    "output_path": "results/ner/nltk/biobert_v4/nel/",
+    "lookup_table": "C:/Users/sonja/OneDrive - Lund University/data_vault/cdlai_data/Mondo/mondo_lookup_table_v1.tsv"
   },
   "result_inspection":{
-    "input_folder": "results/ner/",
-    "output_file": "results/ner_search.txt",
-    "entities": ["tsc", "mtor", "cell", "cells", "rapamycin"]
+    "input_folder": "C:/Users/sonja/OneDrive - Lund University/Projects/easyner/experiments/ner/output/",
+    "output_file": "C:/Users/sonja/OneDrive - Lund University/Projects/easyner/experiments/ner/output/ner_search.txt",
+    "entities": ["rapamycin", "sirolimus"]
   }
 }

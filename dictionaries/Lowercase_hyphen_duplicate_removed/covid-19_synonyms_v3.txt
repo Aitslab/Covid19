@@ -63217,7 +63217,6 @@ new corona virus severe respiratory pneumonia
 new corona virus severe respiratory syndrome
 new corona virus severe syndrome
 new corona virus syndrome
-new coronavirus
 new coronavirus (sars cov 2) disease
 new coronavirus (sars cov 2) disorder
 new coronavirus (sars cov 2) infection
@@ -67251,7 +67250,6 @@ novel corona virus severe respiratory pneumonia
 novel corona virus severe respiratory syndrome
 novel corona virus severe syndrome
 novel corona virus syndrome
-novel coronavirus
 novel coronavirus (2019 ncov) acute respiratory disease infections
 novel coronavirus (2019 ncov) acute respiratory disorder infections
 novel coronavirus (2019 ncov) acute respiratory infection infections
