@@ -32,18 +32,18 @@ The dictionaries contain the following terms:
 1. SARS-CoV-2 synonyms (sars-cov-2_synonyms.txt)  (virus terms)
 2. COVID-19 synonyms  (covid-19_synonym.txt)      (disease terms)
 3. SARS-CoV-2 variant terms (variants.txt)        (variant terms)
-4. SARS-CoV-2 common mutations
+4. SARS-CoV-2 common mutations                    (mutation terms)
 
 
-For this version of manuscript (v3), we have updated (sars-cov-2_synonyms.txt) and saved as supplemental_file1_v3.txt, 
-covid-19_synonym.txt and have it as supplemental_file2_v3.txt and variants.txt as supplemental_file3_v3.txt.
+For this version of manuscript (v3), we have updated (sars-cov-2_synonyms.txt) and saved as supplemental_file1.txt, 
+covid-19_synonym.txt and have it as supplemental_file2.txt and variants.txt as supplemental_file3.txt and added sarscov2_mutations.txt as  supplemental_file4.txt .
 
 
 Previous versions of this manuscript, files and all references are summarized in:
 [(previous_versions)](https://github.com/Aitslab/corona)
 
 
-For this version, for being able to run dictionary-based tagger first it is good to create an environment.
+For this version, for being able to run dictionary-based tagger first it is good to create an environment ([EasyNER, version 2 (v2.0.0)](https://github.com/Aitslab/EasyNER/tree/main/scripts/)).
 
 Set up an conda environment
 ```console
@@ -57,20 +57,28 @@ conda activate easyner_env
 
 
 ## Dictionaries
-We have updated dictionaries through [updated_code](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file8_v3.ipynb).
+We have updated dictionaries through [updated_code](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file5/*.ipynb).
 
 
 
-## Cord-19
-To be able to run [EasyNER](https://github.com/Aitslab/EasyNER.git) dictionary-based tagger on Cord-19, we have first downloaded last version of cord-19 corpus released 2022-06-02 - [Final release of CORD-19](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html)
+## Lund-Annotated-CORD-19 silver standard.
+Due to licensing limitations we are not allowed to share the full Lund-Annotated-CORD-19 corpus openly. Instead you can follow these instructions to create it:
 
-The .tar.gz file with the size of 18.7 GB, were extracted and metadata.csv file were used by [EasyNER](https://github.com/Aitslab/EasyNER.git) pipeline with the following setting.
+1.	Download the CORD-19 metadata.csv file released on June 2022 from its original source: https://github.com/allenai/cord19?tab=readme-ov-file#download 
+    To be able to run [EasyNER](https://github.com/Aitslab/EasyNER.git) dictionary-based tagger on Cord-19, we have first downloaded last version of cord-19 corpus released 2022-06-02 - [Final release of CORD-19](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html)
+    
+2.	Run the CORD loader and Sentence splitter module of EasyNER to extract the abstracts from the metadata.csv file and split the sentences. Instructions for installing and using the free EasyNER tool can be found here: https://github.com/Aitslab/EasyNER/blob/main/tutorials/Tutorial-pipeline.md.
 
+The .tar.gz file with the size of 18.7 GB, were extracted and metadata.csv file were loaded and splitted by [EasyNER](https://github.com/Aitslab/EasyNER.git) cord_loader, and splitter module with the following
+    configuration:
 
 ```python
 config.json
+{
+  "CPU_LIMIT": 4,
+  "TIMEKEEP":true,
 
- "ignore": {
+  "ignore": {
     "cord_loader": false,
     "downloader": true,
     "text_loader":true,
@@ -78,10 +86,10 @@ config.json
     "splitter": false,
     "ner": false,
     "analysis": false,
-    "merger": true,
+    "merger": false,
     "metrics":true,
     "nel":true,
-    "result_inspection":false
+    "result_inspection":true
   },
   
   "cord_loader": {
@@ -96,39 +104,55 @@ config.json
     "output_file_prefix": "sentences",
 	  "pubmed_bulk": false,
 	  "file_limit":[0,100],
-    "tokenizer": "nltk",
+    "tokenizer": "spacy",
     "model_name": "en_core_web_sm",
-    "batch_size": 100
+    "batch_size": 1000
   },
   "ner": {
-    "input_path": "results/splitter/",
-    "output_path": "results/ner/",
-    "output_file_prefix": "ner_spacy",
+    "input_path": "results/splitter_765/",
+    "output_path": "results/ner/covid19/",
+    "output_file_prefix": "ner_spacy-",
     "model_type": "spacy_phrasematcher",
     "model_folder": "",
     "model_name": "en_core_web_sm",
-    "vocab_path": "dictionaries/dictionaries/covid-19_synonyms_v3.txt",   # we have run it for all dictionaries
+    "vocab_path": "dictionaries/Lowercase_hyphen_duplicate_removed/covid-19_synonyms_v3.txt",
     "store_tokens":"no",
     "labels": "",
     "clear_old_results": true,
     "article_limit": [-1,90000],
-    "entity_type": "disease",  #virus #variant
-    "multiprocessing":true
+    "entity_type": "covid19",
+    "multiprocessing": true,
+    "file_batch_size": 15,
+    "sentence_batch_size": 1000
   },
   "analysis": {
-    "input_path": "results/ner/",
+    "input_path": "results/ner/covid19",
     "output_path": "results/analysis/",
-    "entity_type":"disease", #virus #variant
+    "entity_type":"covid19",
     "plot_top_n":50
   },
+  "merger": {
+    "paths": ["results/ner/Covid19/", "results/ner/SarsCov2/","results/ner/Variant/","results/ner/Mutation/"],
+    "entities": ["Disease", "Virus","Variant","Mutation"],
+    "output_path": "results/merged/DVVM/",
+    "output_prefix": "merged-"
+  },
+  ...
 
 ```
-using cord_loader.py, splitter.py, ner_spacy.py, and analysis.py from  [EasyNER](https://github.com/Aitslab/EasyNER/tree/main/scripts/) for saving the abstracts of articles in a text.json file,
-split the text into shorter sentences and saving into smaller .json batches and run dictionary_based tagger all over all batches using ner_spacy.py.
+3. Different steps have been applied to four dictionaries, as described in [Dictionary_update](data/Supplemental_file5/update_dictionaries.ipynb) within the Jupyter notebooks.	
 
-We have first plotted the most 50 frequect terms for all dictionaries, then using the following
+  We have removed all hyphens from words in all dictionaries and make them all lower case. 
+  We have removed all terms of less than 3 characters from the variants dictionary.
+  This has already been completed, and the updated dictionaries are available in [Supplemental_files(1–4).txt](data/).
 
-analysis_cord_19.py script in order to make all terms lower case. 
+4.	Run the EasyNER NER module once with each dictionary (virus, disease, variants, mutations).
+    
+  using ner_spacy.py (This script has also been modified to remove hyphens from the text [modified_ner_spacy](src/ner_spacy.py)), and analysis.py from  [EasyNER, version 2 (v2.0.0)](https://github.com/Aitslab/EasyNER/tree/main/scripts/)  and saving tagged text into smaller .json batches.
+
+5. run  to make the entities case-insensitive and to plot the cumulative frequency of identical words regardless of their letter casing.
+  We have first plotted the most 50 frequect terms for all dictionaries, then using the following
+  [post_processing](src/analysis_cord_19.py) script in order to make all terms lower case. 
 
 
 ```python
@@ -195,33 +219,28 @@ def merge_lower_form_of_entities(df):
 
 if __name__ == "__main__":
     n = 50
-    entity = 'variant'
-    path_ =  "../results/analysis/analysis_{}/".format(entity)
+    entity = 'Sars_cov2'
+    path_  =  "../results/analysis/analysis_{}/".format(entity)
 
     df_id     = pd.read_csv(path_+"result_entities_{}.tsv".format(entity),sep='\t')
     df_new    = df_id[['Unnamed: 0','total_count']]
     df_new    = df_new.rename(columns={'Unnamed: 0': 'entities'})
     df_merged = merge_lower_form_of_entities(df_new)
+    sorted_df_merged = df_merged.sort_values(by=['total_count'], ascending=[False])
 
-
-    fig,ax = plot_frequency_barchart(df_merged,entity , n)
-    ax.set_yticklabels(df_merged['entities'].head(n))
+    fig,ax = plot_frequency_barchart(sorted_df_merged,entity , n)
+    ax.set_yticklabels(sorted_df_merged['entities'].head(n))
             
    
     os.makedirs(path_, exist_ok=True)
-    plt.savefig(path_+"{}_top_{}_ids.png".format(entity,n), bbox_inches="tight", aspect="auto", format="png")
-    df_merged.to_csv(path_+"result_ids_two_col_{}.tsv".format(entity), sep="\t")
+    plt.savefig(path_+"{}_top_{}_lowercase.eps".format(entity,n), bbox_inches="tight", aspect="auto", format="eps")
+    plt.savefig(path_+"{}_top_{}_lowercase.png".format(entity,n), bbox_inches="tight", aspect="auto", format="png")
+    sorted_df_merged.to_csv(path_+"result_ids_two_col_{}.tsv".format(entity), sep="\t")
+
 
 
 ```
 
-## Lund-Annotated-CORD-19 silver standard.
-Due to licensing limitations we are not allowed to share the full Lund-Annotated-CORD-19 corpus openly. Instead you can follow these instructions to create it:
-
-1.	Download the CORD-19 metadata.csv file released on June 22 from its original source: https://github.com/allenai/cord19?tab=readme-ov-file#download 
-2.	Run the CORD loader and Sentence splitter module of EasyNER to extract the abstracts from the metadata.csv file and split the sentences. Instructions for installing and using the free EasyNER tool can be found here: https://github.com/Aitslab/EasyNER/blob/main/tutorials/Tutorial-pipeline.md.
-3.	Remove all terms of less than 3 characters from the variants dictionary.
-4.	Run the EasyNER NER module once with each dictionary (virus, disease, variants, mutations).
 5.	Run the EasyNER Merger module to merge the files from the individual runs
 
 
