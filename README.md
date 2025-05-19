@@ -150,7 +150,7 @@ config.json
     
   using ner_spacy.py (This script has also been modified to remove hyphens from the text [modified_ner_spacy](src/ner_spacy.py)), and analysis.py from  [EasyNER, version 2 (v2.0.0)](https://github.com/Aitslab/EasyNER/tree/main/scripts/)  and saving tagged text into smaller .json batches.
 
-5. run  to make the entities case-insensitive and to plot the cumulative frequency of identical words regardless of their letter casing.
+5. run [post_processing](src/analysis_cord_19.py) to make the entities case-insensitive and to plot the cumulative frequency of identical words regardless of their letter casing.
   We have first plotted the most 50 frequect terms for all dictionaries, then using the following
   [post_processing](src/analysis_cord_19.py) script in order to make all terms lower case. 
 
