@@ -253,8 +253,7 @@ if __name__ == "__main__":
 - 🧠 **Dictionaries and data**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). See `LICENSE-DATA`.
 - 🛠️ **Code**: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). See `LICENSE`.
 
-Please credit the original CORD-19 dataset by the Allen Institute for AI, which is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-
+Please credit the original [CORD-19](https://github.com/allenai/cord19) dataset by the Allen Institute for AI if you use it to create our silver standard corpus.
 
 
 The scripts from [EasyNER](https://github.com/Aitslab/EasyNER/tree/main/scripts/) with some small changes used for this manuscript are saved in script directory of this repo.
