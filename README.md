@@ -1,10 +1,19 @@
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
+This repo accompanies our paper "English dictionaries, gold and silver standard corpora for biomedical natural language processing related to SARS-CoV-2 and COVID-19". 
+It contains 
+- COVID-19-related dictionaries that can be used with the [EasyNER](https://github.com/Aitslab/EasyNER.git) pipeline or other tools for dictionary-based Named Entity Recognition.
+- Code to expand the dictionaries
+- Partial Lund Annotated-CORD-19 silver standard corpus and code and instructions to recreate the entire corpus
+- Lund COVID-19 gold standard corpus with NER annotation
 
-
-This folder contains COVID-19-related dictionaries Collected from various sources and enhanced with added prefixes and suffixes. That can be used with the [EasyNER](https://github.com/Aitslab/EasyNER.git) pipeline.
-Please cite this article if you use dictionaries.
-
+The four dictionaries contain the following terms:
+1. SARS-CoV-2 synonyms (sars-cov-2_synonyms.txt)  (virus terms)
+2. COVID-19 synonyms  (covid-19_synonym.txt)      (disease terms)
+3. SARS-CoV-2 variant terms (variants.txt)        (variant terms)
+4. SARS-CoV-2 common mutations                    (mutation terms)
+   
+Please cite this article if you use any of the materials:
 
 ```bibtex
 @article{rashed2020english,
@@ -15,7 +24,7 @@ Please cite this article if you use dictionaries.
 }
 ```
 
-and Please cite this Easyner paper if you use pipeline for dictionary-based NER.
+and please cite the EasyNER paper if you use it with the tools presented here
 
 ```bibtex
 @article{ahmed2023easyner,
@@ -28,11 +37,7 @@ and Please cite this Easyner paper if you use pipeline for dictionary-based NER.
 }
 ```
 
-The dictionaries contain the following terms:
-1. SARS-CoV-2 synonyms (sars-cov-2_synonyms.txt)  (virus terms)
-2. COVID-19 synonyms  (covid-19_synonym.txt)      (disease terms)
-3. SARS-CoV-2 variant terms (variants.txt)        (variant terms)
-4. SARS-CoV-2 common mutations                    (mutation terms)
+
 
 
 For this version of manuscript (v3), we have updated (sars-cov-2_synonyms.txt) and saved as supplemental_file1.txt, 
