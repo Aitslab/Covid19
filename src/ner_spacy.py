@@ -134,7 +134,7 @@ def _run_ner_batch(ner_config: dict, batch_file, nlp, matcher):
 
         # Prepare the sentences and store metadata about them
         for i, sentence in enumerate(sentences):
-            sentence_list.append(sentence["text"].replace("-"," "))  # remove hyphen from text as well, since they were removed from dictionary terms as well
+            sentence_list.append(sentence["text"].replace("-"," "))  ### Here I removed hyphen from text as well, since we have removed from doctionary terms as well
             sentence_info.append((pmid, i))  # Store article and sentence index
 
     # Use nlp.pipe with batching
