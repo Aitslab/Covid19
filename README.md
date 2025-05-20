@@ -143,7 +143,9 @@ config.json
 3. Different steps have been applied to four dictionaries, as described in [Dictionary_update](data/Supplemental_file5/update_dictionaries.ipynb) within the Jupyter notebooks.	
 
   We have removed all hyphens from words in all dictionaries and make them all lower case. 
-  We have removed all terms of less than 3 characters from the variants dictionary.
+
+  We have removed all terms of less than 3 characters from the variants dictionary ([readme](data/Supplemental_file5/update_dictionaries.ipynb)).
+  
   This has already been completed, and the updated dictionaries are available in [Supplemental_files(1–4).txt](data/).
 
 4.	Run the EasyNER NER module once with each dictionary (virus, disease, variants, mutations).
