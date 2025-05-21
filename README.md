@@ -63,7 +63,7 @@ conda activate easyner_env
 
 
 ## Dictionaries
-We have updated dictionaries through [updated_code](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file5/*.ipynb).
+We have updated dictionaries through [updated_code](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file5/).
 
 
 
