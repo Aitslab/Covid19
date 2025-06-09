@@ -152,7 +152,7 @@ config.json
 
   We have removed all terms of less than 3 characters from the variants dictionary ([readme](data/Supplemental_file5/update_dictionaries.ipynb)).
   
-  This has already been completed, and the updated dictionaries are available in [Supplemental_files(1–4).txt](data/).
+  This has already been completed, and the updated dictionaries are available in [Supplemental_files(1,2,4, and 11).txt](data/).
 
 4.	Run the EasyNER NER module once with each dictionary (virus, disease, variants, mutations).
     
