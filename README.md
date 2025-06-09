@@ -70,7 +70,7 @@ We have updated dictionaries through [updated_code](https://github.com/Aitslab/C
 ## Lund-Annotated-CORD-19 silver standard.
 Due to licensing limitations we are not allowed to share the full Lund-Annotated-CORD-19 corpus openly. Instead you can follow these instructions to create it:
 
-1.	Download the CORD-19 metadata.csv file released on June 2022 from its original source: https://github.com/allenai/cord19?tab=readme-ov-file#download 
+1.	Download the CORD-19 metadata.csv file released on June 2022 from its original source: [Cord19](https://github.com/allenai/cord19?tab=readme-ov-file#download) 
     To be able to run [EasyNER](https://github.com/Aitslab/EasyNER.git) dictionary-based tagger on Cord-19, we have first downloaded last version of cord-19 corpus released 2022-06-02 - [Final release of CORD-19](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html)
     
 2.	Run the CORD loader and Sentence splitter module of EasyNER to extract the abstracts from the metadata.csv file and split the sentences. Instructions for installing and using the free EasyNER tool can be found here: https://github.com/Aitslab/EasyNER/blob/main/tutorials/Tutorial-pipeline.md.
