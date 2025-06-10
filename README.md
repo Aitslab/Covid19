@@ -54,7 +54,7 @@ Previous versions of the manuscript and all associated files can be found in:
 [(previous_versions)](https://github.com/Aitslab/corona)
 
 
-# Usage instructions
+## Usage instructions
 The dictionaries can be run with [EasyNER, version 2 (v2.0.0)](https://github.com/Aitslab/EasyNER/).
 
 For this, follow the instructions in the EasyNER repo and start with a fresh conda environment
