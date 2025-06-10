@@ -1,4 +1,4 @@
-## Lund-Annotated-CORD-19 silver standard.
+## Lund-Annotated-CORD-19 silver standard corpus
 Due to licensing limitations we are not allowed to share the full Lund-Annotated-CORD-19 corpus openly. Instead, we release only the subset of abstracts which had permissive licences and you can follow these instructions to recreate the full corpus from the original CORD-19 dataset using EasyNER:
 
 1.	Download the final CORD-19 .tar.gz file CORD-19 released 2022-06-02, which contains the metadata.csv file that is needed for abstract extraction, from the [CORD-19 websote](https://github.com/allenai/cord19?tab=readme-ov-file#download)
