@@ -13,7 +13,7 @@ This repo accomanies the paper and contains
 3.  Lund COVID-19 gold standard corpus with NER annotations in [BioQRator csv](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file7.csv), [BioC xml](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file8.xml) and [BioC json](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file9.json) format
 4. [Code to convert BioC xml to json format (used for converting the gold standard corpus)](https://github.com/Aitslab/Covid19/tree/main/data/Supplemental_file5)
 5. [Partial Lund-Annotated-CORD-19 silver standard corpus and code and instructions to recreate the entire corpus](https://github.com/Aitslab/Covid19/tree/main/data/Supplemental_file6)
-6.  [Code used to produce and analyse the Lund-Annotatd-CORD-19 corpus]([https://github.com/Aitslab/Covid19/tree/main/src](https://github.com/Aitslab/Covid19/tree/main/data/Supplemental_file5) and the [analysis results (entity counts)](https://github.com/Aitslab/Covid19/tree/main/data/Supplemental_file10)
+6.  [Code used to produce and analyse the Lund-Annotatd-CORD-19 corpus](https://github.com/Aitslab/Covid19/tree/main/data/Supplemental_file5) and the [analysis results (entity counts)](https://github.com/Aitslab/Covid19/tree/main/data/Supplemental_file10)
 
 
 
