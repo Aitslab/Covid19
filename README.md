@@ -1,6 +1,6 @@
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-# Repo for "English dictionaries, gold and silver standard corpora for biomedical natural language processing related to SARS-CoV-2 and COVID-19". 
+# Repo for "English dictionaries, gold and silver standard corpora for biomedical natural language processing related to SARS-CoV-2 and COVID-19"
 
 This repo accomanies the paper and contains 
 1. COVID-19-related dictionaries that can be used with the [EasyNER](https://github.com/Aitslab/EasyNER.git) pipeline or other tools for dictionary-based Named Entity Recognition. There are five dictionaries in total:
@@ -53,25 +53,14 @@ Previous versions of the manuscript and all associated files can be found in:
 Previous version of the dictionaries can also be found in the [data/old_dictionaries folder](https://github.com/Aitslab/Covid19/blob/main/data/old_dictionaries).
 
 ## Usage instructions
-The dictionaries can be run with [EasyNER, version 2 (v2.0.0)](https://github.com/Aitslab/EasyNER/).
-
-For this, follow the instructions in the EasyNER repo and start with a fresh conda environment
-```console
-conda env create -f environment.yml
-```
-
-After installation activate the environment:
-```console
-conda activate easyner_env
-```
-
+The dictionaries can be run with [EasyNER, version 2 (v2.0.0)](https://github.com/Aitslab/EasyNER/), a free and easy-to-use NER software produced in our group, or other NER software. Installation and usage instructions for EasyNER can be found in the EasyNER repo and there are also some [specific instructions]([https://github.com/Aitslab/Covid19/tree/main/data/Supplemental_file6) for the dictionaries published here.
 
 ## Dictionaries
 Scripts used to produce the updated dictionaries can be found [here](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file5/). They can be used to expand the dicationaries.
 
 
 
-## Lund-Annotated-CORD-19 silver standard.
+## Lund-Annotated-CORD-19 silver standard
 Due to licensing limitations we are not allowed to share the full [Lund-Annotated-CORD-19 corpus](github.com/Aitslab/Covid19/tree/main/data/Supplemental_file6) openly. Instead, we release only the part which had permissive licences and instructions to produce the full corpus from the freely accessible original CORD-19 dataset.
 
 
