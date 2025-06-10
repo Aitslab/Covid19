@@ -12,7 +12,7 @@ This repo accomanies the paper and contains
 
 There are five dictionaries in total:
 1. [SARS-CoV-2 synonyms (virus terms), version 3](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file1.txt)
-2. [COVID-19 synonyms (disease terms), version 3[SARS-CoV-2 synonyms (virus terms)](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file2.txt)
+2. [COVID-19 synonyms (disease terms), version 3](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file2.txt)
 3. [SARS-CoV-2 variant terms, version 2, including terms consisting of 1 and 2 characters](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file3.txt)
 4. [SARS-CoV2 variant terms, version 2, excluding terms consistting of 1 and 2 characters](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file4.txt)
 5. [SARS-CoV-2 common mutations, version 1](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file11.txt)
