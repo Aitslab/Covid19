@@ -3,20 +3,20 @@
 # Repo for "English dictionaries, gold and silver standard corpora for biomedical natural language processing related to SARS-CoV-2 and COVID-19". 
 
 This repo accomanies the paper and contains 
-- COVID-19-related dictionaries that can be used with the [EasyNER](https://github.com/Aitslab/EasyNER.git) pipeline or other tools for dictionary-based Named Entity Recognition.
-- Code to update the dictionaries
-- Partial Lund-Annotated-CORD-19 silver standard corpus and code and instructions to recreate the entire corpus
-- Statistics (entitiy counts) for the Lund-Annotated-CORD-19 corpus
-- Lund COVID-19 gold standard corpus with NER annotation in several formats
-- Code to convert BioC xml to json format (used for th gold standard corpus)
-
-There are five dictionaries in total:
+- COVID-19-related dictionaries that can be used with the [EasyNER](https://github.com/Aitslab/EasyNER.git) pipeline or other tools for dictionary-based Named Entity Recognition. There are five dictionaries in total:
 1. [SARS-CoV-2 synonyms (virus terms), version 3](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file1.txt)
 2. [COVID-19 synonyms (disease terms), version 3](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file2.txt)
 3. [SARS-CoV-2 variant terms, version 2, including terms consisting of 1 and 2 characters](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file3.txt)
 4. [SARS-CoV2 variant terms, version 2, excluding terms consistting of 1 and 2 characters](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file4.txt)
 5. [SARS-CoV-2 common mutations, version 1](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file11.txt)
    
+- [Code to produce/update the dictionaries](https://github.com/Aitslab/Covid19/tree/main/data/Supplemental_file5)
+- Lund COVID-19 gold standard corpus with NER annotations in [BioQRator csv](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file7.csv), [BioC xml](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file8.xml) and [BioC json](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file9.json) format
+- [Code to convert BioC xml to json format (used for converting the gold standard corpus)](https://github.com/Aitslab/Covid19/tree/main/data/Supplemental_file5)
+- [Partial Lund-Annotated-CORD-19 silver standard corpus and code and instructions to recreate the entire corpus](https://github.com/Aitslab/Covid19/tree/main/data/Supplemental_file6)
+- [Code used to produce and analyse the Lund-Annotatd-CORD-19 corpus]([https://github.com/Aitslab/Covid19/tree/main/src](https://github.com/Aitslab/Covid19/tree/main/data/Supplemental_file5) and the [analysis results (entity counts)](https://github.com/Aitslab/Covid19/tree/main/data/Supplemental_file10)
+
+
 
 Please cite this article if you use any of the materials:
 
