@@ -44,14 +44,13 @@ and please cite the EasyNER paper if you use it with the tools presented here
 
 
 ## Update notice
-For this version of manuscript (v3), we have updated sars-cov-2_synonyms.txt (now named supplemental_file1.txt), 
+For this version of the paper, we have updated sars-cov-2_synonyms.txt (now named supplemental_file1.txt), 
 covid-19_synonym.txt (now named supplemental_file2.txt) and variants.txt (with and without 1-2 character entities now named supplemental_file3.txt and supplemental_file11.txt, respectively) and added a dictionary of mutations (supplemental_file4.txt).
-
-Previous version of the dictionaries can be found in the [data/old_dictionaries folder](https://github.com/Aitslab/Covid19/blob/main/data/old_dictionaries).
 
 Previous versions of the manuscript and all associated files can be found in:
 [(previous_versions)](https://github.com/Aitslab/corona)
 
+Previous version of the dictionaries can also be found in the [data/old_dictionaries folder](https://github.com/Aitslab/Covid19/blob/main/data/old_dictionaries).
 
 ## Usage instructions
 The dictionaries can be run with [EasyNER, version 2 (v2.0.0)](https://github.com/Aitslab/EasyNER/).
