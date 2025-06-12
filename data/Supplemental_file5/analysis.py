@@ -47,7 +47,7 @@ def run_analysis(input_files_list):
             for sent in articles[art]["sentences"]:
 
                 # analyse entitities
-                if len(sent["entities"])!=0 and "Mutation" in sent["entities"].keys():  ## This part was modified to count each entity class of e.g., disease, virus, variant and mutation separtely
+                if len(sent["entities"])!=0 and "Mutation" in sent["entities"].keys():  ## This part was modified to count each entity class of e.g., disease, virus, variant and mutation separately
                     for entity in sent["entities"]["Mutation"]:
                         if entity not in d_main:
                             d_main[entity]={"total_count":0,
