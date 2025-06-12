@@ -1,7 +1,7 @@
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 # Repo for "English dictionaries, gold and silver standard corpora for biomedical natural language processing related to SARS-CoV-2 and COVID-19"
-
+![toolbox](image.png)
 This repo accomanies the paper and contains 
 1. COVID-19-related dictionaries that can be used with the [EasyNER](https://github.com/Aitslab/EasyNER.git) pipeline or other tools for dictionary-based Named Entity Recognition. There are five dictionaries in total:
    - [SARS-CoV-2 synonyms (virus terms), version 3](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file1.txt)
