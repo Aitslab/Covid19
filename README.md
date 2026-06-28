@@ -9,7 +9,8 @@ This repo accomanies the paper and contains
    - [SARS-CoV-2 synonyms (virus terms), version 3](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file1.txt)
    - [COVID-19 synonyms (disease terms), version 3](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file2.txt)
    - [SARS-CoV-2 variant terms, version 2, including terms consisting of 1 and 2 characters](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file3.txt)
-   - [SARS-CoV2 variant terms, version 2, excluding terms consistting of 1 and 2 characters](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file7.txt)
+   - [SARS-CoV-2 variant terms, version 2, EXcluding terms consistting of 1 and 2 characters](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file7.txt)
+   - [SARS-CoV-2 variant terms, version 3, including new terms (last updated on 2026-06-28)](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file3_v2.txt)
    - [SARS-CoV-2 common mutations, version 1](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file4.txt)
 2. [Code to produce/update the dictionaries](https://github.com/Aitslab/Covid19/tree/main/data/Supplemental_file5)
 3.  Lund COVID-19 gold standard corpus with NER annotations in [BioQRator csv](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file10.csv), [BioC xml](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file8.xml) and [BioC json](https://github.com/Aitslab/Covid19/blob/main/data/Supplemental_file9.json) format
